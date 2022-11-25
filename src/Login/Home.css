@@ -65,3 +65,13 @@ Navbar CSS styles .Nav {
 .nav-sub {
   padding: 2px;
 }
+/* Login CSS styles */
+.card-collect {
+  display: flex;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  padding: 20px;
+}

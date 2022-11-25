@@ -1,16 +1,18 @@
 import React from "react";
+import Login from "./Login/login";
 // import Home from "./Components/Home";
 // import Navbar from "./Components/Navbar";
-import Nav1 from "./Maincomp/Nav";
-
-import "./Maincomp/Home.css";
+// import Nav1 from "./Maincomp/Nav";
 import "./index.css";
 
 export default function App() {
   return (
     <>
-      <Nav1 />
+      <Login />
     </>
+    // <>
+    //   <Nav1 />
+    // </>
 
     // <div className="App">
     //   <div>
