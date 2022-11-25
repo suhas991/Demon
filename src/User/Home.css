@@ -1,4 +1,5 @@
-Navbar CSS styles .Nav {
+/* Navbar CSS styles  */
+.Nav {
   width: 100%;
   height: 60px;
   display: grid;
@@ -74,4 +75,61 @@ Navbar CSS styles .Nav {
 }
 .card {
   padding: 20px;
+}
+/*Map page Css Styles*/
+.M-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.S-Bar {
+  width: 30%;
+  height: 100vh;
+  background-color: grey;
+  border-radius: 8px;
+}
+.intro {
+  padding-left: 20px;
+}
+.trip {
+  padding-left: 20px;
+}
+.From {
+  padding-left: 20px;
+}
+.To {
+  padding-left: 20px;
+}
+.select {
+  padding-left: 20px;
+}
+.Vechile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mantine-gqmpge {
+  font-size: 20px;
+  width: 80%;
+  color: #000;
+  text-align: left;
+  min-height: 38px;
+
+  border-radius: 4px;
+}
+.mantine-ittua2 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  color: #212529;
+  word-break: break-word;
+  cursor: default;
+  -webkit-tap-highlight-color: transparent;
+}
+.mantine-1m3pqry {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  line-height: 3.55;
 }

@@ -1,15 +1,17 @@
 import React from "react";
-import Login from "./Login/login";
+// import Login from "./Login/login";
 // import Home from "./Components/Home";
 // import Navbar from "./Components/Navbar";
 // import Nav1 from "./Maincomp/Nav";
+import Map from "./User/sidebar";
 import "./index.css";
 
 export default function App() {
   return (
-    <>
-      <Login />
-    </>
+    <Map />
+    // <>
+    //   <Login />
+    // </>
     // <>
     //   <Nav1 />
     // </>
