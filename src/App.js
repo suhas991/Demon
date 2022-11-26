@@ -3,12 +3,14 @@ import React from "react";
 // import Home from "./Components/Home";
 // import Navbar from "./Components/Navbar";
 // import Nav1 from "./Maincomp/Nav";
-import Map from "./User/sidebar";
+// import Map from "./User/sidebar";
+import Rating from "./driver/driprofile";
+
 import "./index.css";
 
 export default function App() {
   return (
-    <Map />
+    <Rating />
     // <>
     //   <Login />
     // </>
