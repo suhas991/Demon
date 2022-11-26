@@ -83,12 +83,17 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  color: aqua;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-inline: 20px;
 }
 .S-Bar {
   width: 30%;
-  height: 100vh;
-  background-color: grey;
+  height: 95vh;
+  background-color: black;
   border-radius: 8px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 }
 .intro {
   padding-left: 20px;
@@ -101,6 +106,7 @@
 }
 .To {
   padding-left: 20px;
+  padding-bottom: 25px;
 }
 .select {
   padding-left: 20px;
@@ -108,22 +114,42 @@
 .Vechile {
   display: flex;
   justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+.Auto img {
+  border-radius: 8px;
+}
+.Car img {
+  border-radius: 8px;
+}
+.confirm {
+  padding-left: 20px;
+}
+/*Map part css*/
+.Map {
+  width: 69%;
+  height: 95vh;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  padding-left: 10px;
 }
 
 .mantine-gqmpge {
   font-size: 20px;
   width: 80%;
-  color: #000;
+  color: aqua;
   text-align: left;
   min-height: 38px;
-
   border-radius: 4px;
 }
 .mantine-ittua2 {
   display: inline-block;
   font-size: 20px;
   font-weight: 500;
-  color: #212529;
+  color: aqua;
   word-break: break-word;
   cursor: default;
   -webkit-tap-highlight-color: transparent;
@@ -132,4 +158,5 @@
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
     Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   line-height: 3.55;
+  color: aqua;
 }

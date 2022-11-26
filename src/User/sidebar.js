@@ -1,5 +1,6 @@
 import React from "react";
 import { Autocomplete } from "@mantine/core";
+import { Button } from "@mantine/core";
 import "./Home.css";
 const car =
   " https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8&w=1000&q=80";
@@ -34,18 +35,24 @@ export default function Map() {
           <h3>Select Vechile</h3>
           <div className="Vechile">
             <div className="Auto">
-              <img src={auto} alt="auto" width="150px" height="150px" />
+              <img src={auto} alt="auto" width="200px" height="200px" />
             </div>
             <div className="Car">
-              <img src={car} alt="car" width="150px" height="150px" />
+              <img src={car} alt="car" width="200px" height="200px" />
             </div>
           </div>
         </div>
 
-        <div className="confirm">confirm</div>
+        <div className="confirm">
+          <Button radius="xl" size="lg">
+            Confirm
+          </Button>
+        </div>
       </div>
 
-      <div className="Map">This is map page</div>
+      <div className="Map">
+          
+      </div>
     </div>
   );
 }
