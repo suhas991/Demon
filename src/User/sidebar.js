@@ -50,9 +50,7 @@ export default function Map() {
         </div>
       </div>
 
-      <div className="Map">
-          
-      </div>
+      <div className="Map"></div>
     </div>
   );
 }
